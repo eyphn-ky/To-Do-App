@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddToDoDetailActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
+        android:orientation="vertical"
+        android:padding="30dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+            android:layout_width="match_parent"
+            android:text="Yapılacak İş :"
+            android:textSize="18sp"
+            android:layout_height="30dp"/>
+
+        <EditText
+            android:id="@+id/jobToDoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="0.3"
+            android:hint="Giriniz.."
+            android:inputType="text">
+        </EditText>
+</LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.25"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bitiş Tarihi :"
+                android:textSize="18sp"></TextView>
+
+            <EditText
+                android:id="@+id/dueDateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.3"
+                android:focusable="false"
+                android:inputType="none"
+                android:hint="Tarih girmek için tıklayınız.."
+                android:textSize="18dp"></EditText>
+
+            <EditText
+                android:id="@+id/dueTimeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.3"
+                android:focusable="false"
+                android:hint="Saat girmek için tıklayınız.."
+                android:textSize="18dp"></EditText>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.40"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <Spinner
+            android:id="@+id/categorySelectOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <Button
+            android:id="@+id/addToDoWithDetailButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Ekle"></Button>
+    </RelativeLayout>
+</LinearLayout>

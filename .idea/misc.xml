@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/drawable/addbutton.xml" value="0.3828125" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/drawable/category.xml" value="0.3828125" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/drawable/rounded.xml" value="0.3828125" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/drawable/todocard.xml" value="0.3828125" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/layout/activity_add_to_do_detail.xml" value="0.33" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/layout/activity_main.xml" value="0.2565789473684211" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/layout/activity_options.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/layout/activity_send_feedback.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/layout/activity_send_feedback2.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/layout/activity_task_list.xml" value="0.16" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/menu/main_manu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/eyuph/AndroidStudioProjects/ToDoList/app/src/main/res/menu/options.xml" value="0.20520833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
